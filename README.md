@@ -33,3 +33,13 @@ north, east and south, and in tile (3,3) the valid moves are south and west.
 
 Tile (3,1) is the victory location. When the player enters this tile the program should notify
 him/her of their victory and quit running.
+
+
+<b>First implementation</b>
+
+This implementation is without the use of functions.
+
+
+<b>Second implementation</b>
+
+Code is refactored with the use of functions. 
