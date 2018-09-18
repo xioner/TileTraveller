@@ -1,17 +1,16 @@
-Tile Traveller
+<b>Tile Traveller</b>
 
-This assignment contains two parts. You need to implement one program in each part and you
+<p>This assignment contains two parts. You need to implement one program in each part and you
 have to use git during the development. Create one directory, named TileTraveller, on your
 local computer that will contain the two programs. In addition, you need to push your solution to
-github.
+github.</p>
 
 The assignment is to develop a computer game in which the player is located in a certain tile in
 a grid. At each iteration, the program displays the directions for which there are adjacent tiles
 that the player can travel to.
 
 The program only displays text, so you don’t actually draw the tile grid, but the program should
-behave as if the player is in a 3x3 grid with open and closed walls as seen in the following
-image: https://i.imgur.com/CxDsMIt.png
+behave as if the player is in a 3x3 grid with open and closed walls as seen in the following <a href="https://i.imgur.com/CxDsMIt.png">image</a>
 
 The player starts in tile (1,1). At the beginning, and after each move selected by the player, the
 program should print the player’s travel options. If there is an open wall in a direction, write that
