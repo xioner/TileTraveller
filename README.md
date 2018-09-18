@@ -22,11 +22,11 @@ direction as a possible travel direction.
 At each iteration, the player enters the first letter of the direction he/she wishes to travel, after
 which the player should “be” in another tile and the options for the new tile are then printed out.
 
-The player enters:<br/>
-• n/N for north (up)<br/>
-• e/E for east (right)<br/>
-• s/S for south (down)<br/>
-• w/W for west (left)<br/>
+**The player enters:<br/>**
+>- **n** or **N** for north (**up**)<br/>
+>- **e** or **E** for east (**right**)<br/>
+>- **s** or **S** for south (**down**)<br/>
+>- **w** or **W** for west (**left**)<br/>
 
 If the player enters an invalid direction, the program prints “Not a valid direction!” and allows the
 player to enter the direction again.
