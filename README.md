@@ -1,4 +1,4 @@
-<b>Tile Traveller</b>
+## Tile Traveller
 
 <p>This assignment contains two parts. You need to implement one program in each part and you
 have to use git during the development. Create one directory, named TileTraveller, on your
@@ -35,11 +35,11 @@ Tile (3,1) is the victory location. When the player enters this tile the program
 him/her of their victory and quit running.
 
 
-<b>First implementation</b>
+### First implementation
 
 This implementation is without the use of functions.
 
 
-<b>Second implementation</b>
+### Second implementation
 
 Code is refactored with the use of functions. 
