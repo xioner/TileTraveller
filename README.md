@@ -19,11 +19,11 @@ direction as a possible travel direction.
 At each iteration, the player enters the first letter of the direction he/she wishes to travel, after
 which the player should “be” in another tile and the options for the new tile are then printed out.
 
-The player enters:
-• n/N for north (up)
-• e/E for east (right)
-• s/S for south (down)
-• w/W for west (left)
+The player enters:<br/>
+• n/N for north (up)<br/>
+• e/E for east (right)<br/>
+• s/S for south (down)<br/>
+• w/W for west (left)<br/>
 
 If the player enters an invalid direction, the program prints “Not a valid direction!” and allows the
 player to enter the direction again.
