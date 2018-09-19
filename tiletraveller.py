@@ -1,5 +1,5 @@
 N = '(N)orth'
-S = '(S)outh'
+S = '(S)outh' 
 E = '(E)ast'
 W = '(W)est'
 
