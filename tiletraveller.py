@@ -37,7 +37,7 @@ while True:
         print(f"You can travel: {N} or {E} or {S}.")
         direction = str(input("Direction: "))
         while True:
-            if direction.lower() in ('n', 's', 'e'):
+            if direction.lower() in ('n', 's', 'e'):    
                 if direction.lower() == 'n':
                     y_pos += 1
                     break
