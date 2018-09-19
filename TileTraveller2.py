@@ -1,11 +1,3 @@
-# 1. Which implementation was easier and why?
-# 2. Which implementation is more readable and why?
-# 3. Which problems in the first implementations were you able to solve with the latter
-# implementation?
-
-#  ---- GITHUB ------
-# https://github.com/xioner/TileTraveller
-
 N = '(N)orth'
 S = '(S)outh'
 E = '(E)ast'
@@ -52,17 +44,11 @@ while True:
             print ('Victory!')
             exit()
 
-        x_pos, y_pos = moving(x_pos, y_pos, direction) # Function call 
-    
+        x_pos, y_pos = moving(x_pos, y_pos, direction) # Function call    
+        
     else: 
         print ('Not a valid direction')
         direction = str(input("Direction: ")) 
 
     direction = str(input("Direction: ")) 
     
-
-
-# Current problem: 
-# if I enter 'w' as the first input, it knows it's invalid HOWEVER it will still
-# call the function and do the function's if statement, making me go to 0, 1 position
-# And I will be stuck there. 
