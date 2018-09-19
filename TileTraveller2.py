@@ -35,7 +35,7 @@ while True: # main loop
             acceptable_moves = ('s', 'w') 
         elif (x_pos == 2) and (y_pos == 3):
             print(f"You can travel: {E} or {W}.")
-            acceptable_moves = ('e', 'w')
+            acceptable_moves = ('e', 'w') 
         elif (x_pos == 3) and (y_pos == 2):
             print(f"You can travel: {N} or {S}.")
             acceptable_moves = ('n', 's') 
