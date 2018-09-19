@@ -1,25 +1,10 @@
-# Player starts at pos 1,1
-# Depending on position, the player can either move north, south, west or east.
-# Ask for direction, convert to lowercase.
-# If invalid direction is entered error handle + give user a chance to redeem themselves
-# east and west are on x axis
-# south and north are on y axis
-# If valid direction is entered by user 
-# calculate new coordinates, and move on to next coordinates
-
-# https://github.com/xioner/TileTraveller
-
-
 N = '(N)orth'
 S = '(S)outh'
 E = '(E)ast'
 W = '(W)est'
 
-
-
 x_pos, y_pos = 1,1
 player_start = x_pos, y_pos
-
 
 while True: 
     if (x_pos == 1) and (y_pos == 1) or ((x_pos == 2) and (y_pos == 1)):
@@ -49,8 +34,7 @@ while True:
                     break
             else:
                 print("Not a valid direction!")
-                direction = str(input("Direction: "))
-              
+                direction = str(input("Direction: "))             
             
     if (x_pos == 1) and (y_pos == 3):
         print(f"You can travel: {E} or {S}.")
