@@ -7,7 +7,7 @@ W = '(W)est'
 x_pos, y_pos = 1,1
 acceptable_moves = ('')
 direction = ''
-total_coins = 0 
+total_coins = 0
 
 def moving(x_pos: int, y_pos: int, direction: str)->int :
     ''' Take in current position and return a new position'''
