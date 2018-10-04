@@ -20,7 +20,6 @@ W = '(W)est'
 x_pos, y_pos = 1,1
 player_start = x_pos, y_pos
 
-
 while True: 
     if (x_pos == 1) and (y_pos == 1) or ((x_pos == 2) and (y_pos == 1)):
         print(f"You can travel: {N}.")
