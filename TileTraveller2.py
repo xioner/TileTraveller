@@ -7,6 +7,7 @@ x_pos, y_pos = 1,1
 acceptable_moves = ('')
 direction = ''
 
+
 def moving(x_pos: int, y_pos: int, direction: str)->int :
     ''' Take in current position and return a new position'''
 
